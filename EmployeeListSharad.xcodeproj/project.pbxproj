@@ -16,6 +16,7 @@
 		841C945227F0A66D00B54B78 /* EmployeeListSharadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C945127F0A66D00B54B78 /* EmployeeListSharadTests.swift */; };
 		841C945C27F0A66D00B54B78 /* EmployeeListSharadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C945B27F0A66D00B54B78 /* EmployeeListSharadUITests.swift */; };
 		841C945E27F0A66D00B54B78 /* EmployeeListSharadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C945D27F0A66D00B54B78 /* EmployeeListSharadUITestsLaunchTests.swift */; };
+		841C946B27F0A82300B54B78 /* EmployeeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841C946A27F0A82300B54B78 /* EmployeeTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		841C945727F0A66D00B54B78 /* EmployeeListSharadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeListSharadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		841C945B27F0A66D00B54B78 /* EmployeeListSharadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListSharadUITests.swift; sourceTree = "<group>"; };
 		841C945D27F0A66D00B54B78 /* EmployeeListSharadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeListSharadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		841C946A27F0A82300B54B78 /* EmployeeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 				841C943A27F0A66C00B54B78 /* AppDelegate.swift */,
 				841C943C27F0A66C00B54B78 /* SceneDelegate.swift */,
 				841C943E27F0A66C00B54B78 /* ViewController.swift */,
+				841C946A27F0A82300B54B78 /* EmployeeTableViewCell.swift */,
 				841C944027F0A66C00B54B78 /* Main.storyboard */,
 				841C944327F0A66D00B54B78 /* Assets.xcassets */,
 				841C944527F0A66D00B54B78 /* LaunchScreen.storyboard */,
@@ -259,6 +262,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				841C943F27F0A66C00B54B78 /* ViewController.swift in Sources */,
+				841C946B27F0A82300B54B78 /* EmployeeTableViewCell.swift in Sources */,
 				841C943B27F0A66C00B54B78 /* AppDelegate.swift in Sources */,
 				841C943D27F0A66C00B54B78 /* SceneDelegate.swift in Sources */,
 			);
