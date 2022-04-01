@@ -7,7 +7,7 @@
 
 import UIKit
 
-struct EmployeeList {
+struct Employee {
     
     var employeeName: String
     var employeeCompany: String
@@ -23,13 +23,13 @@ class ViewController: UIViewController, UITableViewDataSource {
     
 
     
-    var employeeList = [EmployeeList(employeeName: "Sharad Pun", employeeCompany: "Cisco", employeeAge: "21"),
-                        EmployeeList(employeeName: "Sai Venkatesh ", employeeCompany: "ITC", employeeAge: "22"),
-                        EmployeeList(employeeName: "Mateus Goncalves ", employeeCompany: "Youtube", employeeAge: "23"),
-                        EmployeeList(employeeName: "Charlie Newman ", employeeCompany: "Google", employeeAge: "24"),
-                        EmployeeList(employeeName: "Mathew I ", employeeCompany: "Facebook", employeeAge: "25"),
-                        EmployeeList(employeeName: "Melvyn Awani ", employeeCompany: "IBM", employeeAge: "26"),
-                        EmployeeList(employeeName: "Donald Daniels ", employeeCompany: "Twitter", employeeAge: "27")]
+    var employeeList = [Employee(employeeName: "Sharad Pun", employeeCompany: "Cisco", employeeAge: "21"),
+                        Employee(employeeName: "Sai Venkatesh ", employeeCompany: "ITC", employeeAge: "22"),
+                        Employee(employeeName: "Mateus Goncalves ", employeeCompany: "Youtube", employeeAge: "23"),
+                        Employee(employeeName: "Charlie Newman ", employeeCompany: "Google", employeeAge: "24"),
+                        Employee(employeeName: "Mathew I ", employeeCompany: "Facebook", employeeAge: "25"),
+                        Employee(employeeName: "Melvyn Awani ", employeeCompany: "IBM", employeeAge: "26"),
+                        Employee(employeeName: "Donald Daniels ", employeeCompany: "Twitter", employeeAge: "27")]
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -46,7 +46,7 @@ class ViewController: UIViewController, UITableViewDataSource {
        
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! EmployeeTableViewCell
         
-        var e1: EmployeeList
+        var e1: Employee
         e1 = employeeList[indexPath.row]
         
         cell.nameLabel.text = e1.employeeName
